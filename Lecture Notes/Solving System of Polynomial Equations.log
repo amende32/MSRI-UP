@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 JUN 2017 02:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 JUN 2017 10:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -586,6 +586,211 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks44
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pstricks-add/pstricks-add.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2015/11/14 v0.62 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
+)
+\XKV@depth=\count130
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count131
+\pstFP@xia=\count132
+\pstFP@xib=\count133
+\pstFP@xfa=\count134
+\pstFP@xfb=\count135
+\pstFP@rega=\count136
+\pstFP@regb=\count137
+\pstFP@regs=\count138
+\pstFP@times=\count139
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks47
+\pgfutil@tempdima=\dimen186
+\pgfutil@tempdimb=\dimen187
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen188
+\pgffor@skip=\dimen189
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
+)
+\psLoopIndex=\count140
+
+`PSTricks' v2.66  <2016/05/18> (tvz)
+\pst@dima=\dimen190
+\pst@dimb=\dimen191
+\pst@dimc=\dimen192
+\pst@dimd=\dimen193
+\pst@dimg=\dimen194
+\pst@dimh=\dimen195
+\pst@dimm=\dimen196
+\pst@dimn=\dimen197
+\pst@dimo=\dimen198
+\pst@dimp=\dimen199
+\pst@hbox=\box47
+\pst@ibox=\box48
+\pst@boxg=\box49
+\pst@cnta=\count141
+\pst@cntb=\count142
+\pst@cntc=\count143
+\pst@cntd=\count144
+\pst@cntg=\count145
+\pst@cnth=\count146
+\pst@cntm=\count147
+\pst@cntn=\count148
+\pst@cnto=\count149
+\pst@cntp=\count150
+\@zero=\count151
+\pst@toks=\toks50
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pstricks/pstricks.con)
+\psunit=\dimen256
+\psxunit=\dimen257
+\psyunit=\dimen258
+\pst@C@@rType=\count152
+\pslinewidth=\dimen259
+\psk@startLW=\dimen260
+\psk@endLW=\dimen261
+\pst@customdefs=\toks51
+\pslinearc=\dimen262
+\pst@symbolStep=\dimen263
+\pst@symbolWidth=\dimen264
+\pst@symbolLinewidth=\dimen265
+\everypsbox=\toks52
+\psframesep=\dimen266
+\pslabelsep=\dimen267
+\sh@wgridXunit=\dimen268
+\sh@wgridYunit=\dimen269
+\pst@shift=\dimen270
+)
+File: pstricks.tex 2016/05/18 v2.66 `PSTricks' (tvz,hv)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pstricks/pst-fp.tex)
+File: pst-fp.tex 2016/05/18 v2.66 `PST-fp' (hv)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pst-plot/pst-plot.sty
+Package: pst-plot 2011/06/05 v1.00 LaTeX wrapper for `pst-plot' (HV)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xkeyval/pst-xkey.sty
+Package: pst-xkey 2005/11/25 v1.6 package wrapper for pst-xkey.tex (HA)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/multido/multido.sty
+Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/multido/multido.tex
+ v1.42, 2010/05/14 <tvz>
+\multido@count=\count153
+\multidocount=\count154
+\multido@stuff=\toks53
+)
+File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
+)
+Package: pst-plot 2011/04/13 package wrapper for pst-plot.tex (hv)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pst-plot/pst-plot.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pst-tools/pst-tools.tex
+`PST-tools' v0.05, 2014/05/12 (hv))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pst-node/pst-node.tex
+ v1.36, 2016/04/24
+\psrow=\count155
+\pscol=\count156
+\psmatrixcnt=\count157
+\psrowsep=\skip72
+\pscolsep=\skip73
+\pst@args=\count158
+\num@pts=\count159
+\pst@argcnt=\count160
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pst-3d/pst-3d.tex
+`PST-3d' v1.11, 2010/02/14 (tvz))
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pst-math/pst-math.tex
+`pst-math' v0.63 , (CJ,hv)) `pstricks-add' v3.80, 2016/04/25 (dr,hv)
+\psparallelogramsep=\dimen271
+\pshooklength=\dimen272
+\pshookwidth=\dimen273
+\pst@cntC=\count161
+\chart@ColorIndex=\dimen274
+\chart@ColorStep=\dimen275
+\pst@chartHeight=\dimen276
+\pst@chartStackDepth=\dimen277
+\pst@chartStackWidth=\dimen278
+\chart@Toggle=\count162
+\psVectorCtr=\count163
+)
+ v1.75, 2016/05/18 (tvz,hv)
+\pstRadUnit=\dimen279
+\pstRadUnitInv=\dimen280
+\pst@linecnt=\count164
+\RCD@file=\read2
+\psxlabelsep=\dimen281
+\psylabelsep=\dimen282
+\psk@subticksize=\dimen283
+\pst@xticksizeA=\dimen284
+\pst@xticksizeB=\dimen285
+\pst@xticksizeC=\dimen286
+\pst@yticksizeA=\dimen287
+\pst@yticksizeB=\dimen288
+\pst@yticksizeC=\dimen289
+\@digitcounter=\count165
+\psk@llx=\dimen290
+\psk@lly=\dimen291
+\psk@urx=\dimen292
+\psk@ury=\dimen293
+\pst@xunit=\dimen294
+\pst@yunit=\dimen295
+)
+File: pst-plot.tex 2016/05/18 1.75 `pst-plot' (tvz,hv)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pst-node/pst-node.sty
+Package: pst-node 2012/09/18 v1.01 LaTeX wrapper for `pst-node' (HV)
+Package: pst-node 2010/04/22 package wrapper for pst-node.tex
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pst-node/pst-node.tex)
+File: pst-node.tex 2016/05/18 1.75 `pst-node' (tvz,hv)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pst-3d/pst-3d.sty
+Package: pst-3d 2009/07/28 package wrapper for pst-3d.tex (hv)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pst-3d/pst-3d.tex)
+File: pst-3d.tex 2016/05/18 v1.75 `PST-3d' (hv)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pst-math/pst-math.sty
+Package: pst-math 2014/07/30 package wrapper for PSTricks pst-math.tex
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pst-math/pst-math.tex)
+File: pst-math.tex 2016/05/18 v1.75 `PST-math' (hv)
+)
+Package: pstricks-add 2010/02/11 v. 0.14 package wrapper for pstricks-add.tex (
+hv)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/pstricks-add/pstricks-add.tex)
+File: pstricks-add.tex 2016/05/18 v1.75 `PSTricks-add' (hv)
+Package pstricks-add Info: Local config file pstricks-add.cfg used on input lin
+e 20.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pstricks-add/pstricks-add.cfg
+File: pstricks-add.cfg 2005/01/10 v0.1 addtional user stuff (hv)
+))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/genmisc/nth.sty
 Package: nth 2002/02/27
 )
@@ -641,14 +846,14 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen186
-\Hy@linkcounter=\count130
-\Hy@pagecounter=\count131
+\@linkdim=\dimen296
+\Hy@linkcounter=\count166
+\Hy@pagecounter=\count167
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count132
+\Hy@SavedSpaceFactor=\count168
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -660,17 +865,17 @@ Package hyperref Info: Plain pages OFF on input line 4461.
 Package hyperref Info: Backreferencing OFF on input line 4466.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4691.
-\c@Hy@tempcnt=\count133
+\c@Hy@tempcnt=\count169
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5044.
-\XeTeXLinkMargin=\dimen187
-\Fld@menulength=\count134
-\Field@Width=\dimen188
-\Fld@charsize=\dimen189
+\XeTeXLinkMargin=\dimen297
+\Fld@menulength=\count170
+\Field@Width=\dimen298
+\Fld@charsize=\dimen299
 Package hyperref Info: Hyper figures OFF on input line 6298.
 Package hyperref Info: Link nesting OFF on input line 6303.
 Package hyperref Info: Hyper index ON on input line 6306.
@@ -680,24 +885,24 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6323.
 Package hyperref Info: PDF/A mode OFF on input line 6328.
 LaTeX Info: Redefining \ref on input line 6368.
 LaTeX Info: Redefining \pageref on input line 6372.
-\Hy@abspage=\count135
-\c@Item=\count136
-\c@Hfootnote=\count137
+\Hy@abspage=\count171
+\c@Item=\count172
+\c@Hfootnote=\count173
 )
 
 Package hyperref Message: Driver: hpdftex.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
-\Fld@listcount=\count138
-\c@bookmark@seq@number=\count139
+\Fld@listcount=\count174
+\c@bookmark@seq@number=\count175
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip72
+\Hy@SectionHShift=\skip74
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
@@ -715,27 +920,27 @@ LaTeX Info: Redefining \labelcpageref on input line 2230.
 Package cleveref Info: `amsthm' support loaded on input line 2858.
 Package cleveref Info: `algorithm2e' support loaded on input line 2966.
 )
-\c@problem=\count140
-\c@ex=\count141
-Package hyperref Info: Option `colorlinks' set `true' on input line 55.
+\c@problem=\count176
+\c@ex=\count177
+Package hyperref Info: Option `colorlinks' set `true' on input line 56.
 
 (./Solving System of Polynomial Equations.aux)
 \openout1 = `"Solving System of Polynomial Equations.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -774,17 +979,17 @@ LaTeX Font Info:    ... okay on input line 69.
 ABD: EveryShipout initializing macros
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count142
-\scratchdimen=\dimen190
-\scratchbox=\box47
-\nofMPsegments=\count143
-\nofMParguments=\count144
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count145
-\MPscratchDim=\dimen191
-\MPnumerator=\count146
-\makeMPintoPDFobject=\count147
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count178
+\scratchdimen=\dimen300
+\scratchbox=\box50
+\nofMPsegments=\count179
+\nofMParguments=\count180
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count181
+\MPscratchDim=\dimen301
+\MPnumerator=\count182
+\makeMPintoPDFobject=\count183
+\everyMPtoPDFconversion=\toks55
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -800,8 +1005,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box48
-Package hyperref Info: Link coloring ON on input line 69.
+\AtBeginShipoutBox=\box51
+Package hyperref Info: Link coloring ON on input line 70.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -809,82 +1014,94 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count148
+\c@section@level=\count184
 )
-LaTeX Info: Redefining \ref on input line 69.
-LaTeX Info: Redefining \pageref on input line 69.
-LaTeX Info: Redefining \nameref on input line 69.
+LaTeX Info: Redefining \ref on input line 70.
+LaTeX Info: Redefining \pageref on input line 70.
+LaTeX Info: Redefining \nameref on input line 70.
 
 (./Solving System of Polynomial Equations.out)
 (./Solving System of Polynomial Equations.out)
 \@outlinefile=\write4
 \openout4 = `"Solving System of Polynomial Equations.out"'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 75.
+LaTeX Font Info:    Try loading font information for U+msa on input line 76.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 75.
+LaTeX Font Info:    Try loading font information for U+msb on input line 76.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 75.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 76.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 
-Package hyperref Warning: Ignoring empty anchor on input line 75.
+Package hyperref Warning: Ignoring empty anchor on input line 76.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 77.
+Package hyperref Warning: Ignoring empty anchor on input line 78.
 
 [1
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Solving System of Polynomial Equations.toc)
+
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/upd
+map/pdftex.map}] (./Solving System of Polynomial Equations.toc)
 \tf@toc=\write5
 \openout5 = `"Solving System of Polynomial Equations.toc"'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--147
+Underfull \hbox (badness 10000) in paragraph at lines 148--151
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 202--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--206
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
 
-Overfull \hbox (26.42801pt too wide) in paragraph at lines 209--210
+Overfull \hbox (26.42801pt too wide) in paragraph at lines 213--214
 []$[]$ \T1/aer/m/n/10 Archnewt$\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/
 10 )$ \T1/aer/m/n/10 is the fol-low-ing graph closed by the points $\OT1/cmr/m/
 n/10 (0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 
@@ -894,24 +1111,24 @@ $\OT1/cmr/m/n/10 (18\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@ [] \OT1/cmr/m/n/10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
 
-Overfull \hbox (19.90585pt too wide) detected at line 259
+Overfull \hbox (19.90585pt too wide) detected at line 263
 \OML/cmm/m/it/10 ArchTrop\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ) :
 = \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 v \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R[] \OM
 S/cmsy/m/n/10 j []g\OML/cmm/m/it/10 :
  []
 
 [6]
-Overfull \hbox (14.33371pt too wide) in paragraph at lines 282--284
+Overfull \hbox (14.33371pt too wide) in paragraph at lines 286--288
 \T1/aer/m/n/10 then by tak-ing the $[]$ of the fig-ure, we would ob-tain the $\
 OML/cmm/m/it/10 Amoeba\OT1/cmr/m/n/10 (1 + \OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10
  + \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) = ([] \OMS/cmsy/m/n/10 j\OML/cmm/m/it/
@@ -920,28 +1137,28 @@ OML/cmm/m/it/10 Amoeba\OT1/cmr/m/n/10 (1 + \OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10
  []
 
 [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 292.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 292.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 296.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 296.
  (./Solving System of Polynomial Equations.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 292.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 292.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 296.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
 Package rerunfilecheck Info: File `"Solving System of Polynomial Equations".out
 ' has not changed.
 (rerunfilecheck)             Checksum: 7E798D42B3B46D30D9E9512EF8FF4EB4;1178.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 292.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 19959 strings out of 493014
- 370541 string characters out of 6133351
- 469496 words of memory out of 5000000
- 23085 multiletter control sequences out of 15000+600000
+ 23493 strings out of 493014
+ 428603 string characters out of 6133351
+ 610756 words of memory out of 5000000
+ 26520 multiletter control sequences out of 15000+600000
  42005 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,16n,54p,452b,6097s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,16n,54p,715b,9825s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
@@ -958,11 +1175,11 @@ local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Solving System of Polynomial Equations.pdf" (7 pages, 205009
+Output written on "Solving System of Polynomial Equations.pdf" (7 pages, 204892
  bytes).
 PDF statistics:
  210 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
+ 180 compressed objects within 2 object streams
  34 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
