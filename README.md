@@ -7,6 +7,7 @@ Lecture notes from the research program led by Prof. J. Maurice Rojas of Texas A
 ## User Stories
 
 The following **required** functionality is completed:
+
 Day 1:
 
 > - [x] Lecture notes.
@@ -56,7 +57,7 @@ There might be some typos. Please feel free to email me at coscohua@mail.sfu.edu
 
 Copyright [2017] [Carlos Osco]
 
-All code and material is licensed under a Creative Commons Attribution 4.0 International License (CC-by) [http://creativecommons.org/licenses/by/4.0/]
+All code and material is licensed under a [Creative Commons Attribution 4.0 International License (CC-by)](http://creativecommons.org/licenses/by/4.0/)
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
