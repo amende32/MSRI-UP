@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 JUN 2017 01:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 JUN 2017 02:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**math.tex
-(./math.tex
+**"Solving System of Polynomial Equations.tex"
+(./Solving System of Polynomial Equations.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
@@ -717,25 +717,25 @@ Package cleveref Info: `algorithm2e' support loaded on input line 2966.
 )
 \c@problem=\count140
 \c@ex=\count141
-Package hyperref Info: Option `colorlinks' set `true' on input line 57.
+Package hyperref Info: Option `colorlinks' set `true' on input line 55.
 
-(./math.aux)
-\openout1 = `math.aux'.
+(./Solving System of Polynomial Equations.aux)
+\openout1 = `"Solving System of Polynomial Equations.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -801,7 +801,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box48
-Package hyperref Info: Link coloring ON on input line 71.
+Package hyperref Info: Link coloring ON on input line 69.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -811,76 +811,80 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count148
 )
-LaTeX Info: Redefining \ref on input line 71.
-LaTeX Info: Redefining \pageref on input line 71.
-LaTeX Info: Redefining \nameref on input line 71.
+LaTeX Info: Redefining \ref on input line 69.
+LaTeX Info: Redefining \pageref on input line 69.
+LaTeX Info: Redefining \nameref on input line 69.
 
-(./math.out) (./math.out)
+(./Solving System of Polynomial Equations.out)
+(./Solving System of Polynomial Equations.out)
 \@outlinefile=\write4
-\openout4 = `math.out'.
+\openout4 = `"Solving System of Polynomial Equations.out"'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 77.
+LaTeX Font Info:    Try loading font information for U+msa on input line 75.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 77.
+LaTeX Font Info:    Try loading font information for U+msb on input line 75.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 77.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 75.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
+
+Package hyperref Warning: Ignoring empty anchor on input line 75.
+
 
 Package hyperref Warning: Ignoring empty anchor on input line 77.
 
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./math.toc)
+(./Solving System of Polynomial Equations.toc)
 \tf@toc=\write5
-\openout5 = `math.toc'.
+\openout5 = `"Solving System of Polynomial Equations.toc"'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--157
+Underfull \hbox (badness 10000) in paragraph at lines 144--147
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 208--210
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--216
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
 
-Overfull \hbox (26.42801pt too wide) in paragraph at lines 219--220
+Overfull \hbox (26.42801pt too wide) in paragraph at lines 209--210
 []$[]$ \T1/aer/m/n/10 Archnewt$\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/
 10 )$ \T1/aer/m/n/10 is the fol-low-ing graph closed by the points $\OT1/cmr/m/
 n/10 (0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 
@@ -890,24 +894,24 @@ $\OT1/cmr/m/n/10 (18\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^@ [] \OT1/cmr/m/n/10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
 
 
-Overfull \hbox (19.90585pt too wide) detected at line 269
+Overfull \hbox (19.90585pt too wide) detected at line 259
 \OML/cmm/m/it/10 ArchTrop\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ) :
 = \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 v \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R[] \OM
 S/cmsy/m/n/10 j []g\OML/cmm/m/it/10 :
  []
 
 [6]
-Overfull \hbox (14.33371pt too wide) in paragraph at lines 292--294
+Overfull \hbox (14.33371pt too wide) in paragraph at lines 282--284
 \T1/aer/m/n/10 then by tak-ing the $[]$ of the fig-ure, we would ob-tain the $\
 OML/cmm/m/it/10 Amoeba\OT1/cmr/m/n/10 (1 + \OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10
  + \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) = ([] \OMS/cmsy/m/n/10 j\OML/cmm/m/it/
@@ -916,27 +920,28 @@ OML/cmm/m/it/10 Amoeba\OT1/cmr/m/n/10 (1 + \OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10
  []
 
 [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
- (./math.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
-Package rerunfilecheck Info: File `math.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 292.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 292.
+ (./Solving System of Polynomial Equations.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 292.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 292.
+Package rerunfilecheck Info: File `"Solving System of Polynomial Equations".out
+' has not changed.
 (rerunfilecheck)             Checksum: 7E798D42B3B46D30D9E9512EF8FF4EB4;1178.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 302.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 292.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 19958 strings out of 493014
- 370025 string characters out of 6133351
- 468496 words of memory out of 5000000
+ 19959 strings out of 493014
+ 370541 string characters out of 6133351
+ 469496 words of memory out of 5000000
  23085 multiletter control sequences out of 15000+600000
  42005 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,16n,54p,611b,6097s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,16n,54p,452b,6097s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
@@ -953,10 +958,11 @@ local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on math.pdf (7 pages, 203935 bytes).
+Output written on "Solving System of Polynomial Equations.pdf" (7 pages, 205009
+ bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 182 compressed objects within 2 object streams
+ 210 PDF objects out of 1000 (max. 8388607)
+ 183 compressed objects within 2 object streams
  34 named destinations out of 1000 (max. 500000)
  149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
