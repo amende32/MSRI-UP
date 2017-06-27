@@ -1,4 +1,5 @@
 # MSRI-UP 2017
+[![](http://www.msri.org/sites/56a21bba96803b77c6000001/theme/images/MSRI_Logo_Trans_FX.png?1495753853)](https://www.msri.org/programs/325)
 
 **Solving System of Polynomial Equations** 
 Lecture notes from the research program led by Prof. J. Maurice Rojas of Texas A&M University.
@@ -50,15 +51,14 @@ The following **optional** features are implemented:
 
 ## Notes
 
-There might be some typos. Please feel free to email me at coscohua@mail.sfu.edu
+There might be some typos. Please feel free to [email me](coscohua@mail.sfu.edu).
 
 
 ## License
 
 Copyright [2017] [Carlos Osco]
 
-All code and material is licensed under a [Creative Commons Attribution 4.0 International License (CC-by)](http://creativecommons.org/licenses/by/4.0/)
-Unless required by applicable law or agreed to in writing, software
+All code and material is licensed under a [Creative Commons Attribution 4.0 International License (CC-by)](http://creativecommons.org/licenses/by/4.0/). Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
