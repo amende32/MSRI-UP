@@ -10,10 +10,11 @@
 \usepackage{soul}
 \usepackage[T1]{fontenc}
 \usepackage{ae,aecompl}
-\usepackage{tikz}
+%\usepackage{tikz}
 \usepackage[lined]{algorithm2e}
 \usepackage{enumerate}
-\usepackage{pstricks-add}
+%\usepackage{pstricks-add}
+\usepackage{pgf,tikz}\usepackage{mathrsfs}\usetikzlibrary{arrows}%\pagestyle{empty}
 \usepackage[super,negative]{nth} %nth
 \usepackage[pdftex,
   pdfauthor={Carlos Osco Huaricapcha},
@@ -130,8 +131,10 @@
 			\begin{defn}
 			$ArchNewt(c_1x_1^{a_1}+c_2x_1^{a_2}$):=
 			%Image 1
-%			\begin{pspicture*}(-4.3,-8.46)(22.34,6.3)\psline[linewidth=1.2pt](-0.78,3)(3.54,4.5)\rput[tl](-2.58,2.82){$(a_1,-\log|c_1|)$}\rput[tl](4.1,5.48){$(a_1,-\log|c_1|)$}\begin{scriptsize}\psdots[dotstyle=*,linecolor=blue](-0.78,3)\psdots[dotstyle=*,linecolor=blue](3.54,4.5)\end{scriptsize}\end{pspicture*}
-%%			\psset{xunit=1cm,yunit=1cm,algebraic=true,dimen=middle,dotstyle=o,dotsize=5pt 0,linewidth=0.8pt,arrowsize=3pt 2,arrowinset=0.25}\begin{pspicture*}(-4.3,-8.46)(22.34,6.3)\psline[linewidth=1.2pt](-0.78,3)(3.54,4.5)\rput[tl](-2.58,2.82){$(a_1,-\log|c_1|)$}\rput[tl](4.1,5.48){$(a_1,-\log|c_1|)$}\begin{scriptsize}\psdots[dotstyle=*,linecolor=blue](-0.78,3)\psdots[dotstyle=*,linecolor=blue](3.54,4.5)\end{scriptsize}\end{pspicture*}
+			\definecolor{qqqqff}{rgb}{0,0,1}
+			\begin{center}
+			\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]\clip(-3.617,1.8798) rectangle (4.757,5.4202);\draw [line width=1.2pt] (-0.78,3)-- (2.42,4.36);\draw (-3.3213801765105226,2.673503804347824) node[anchor=north west] {$(a_1,-\log|c_1|)$};\draw (2.0793665987780043,5.328803804347821) node[anchor=north west] {$(a_2,-\log|c_2|)$};\begin{scriptsize}\draw [fill=qqqqff] (-0.78,3) circle (2.5pt);\draw [fill=qqqqff] (2.42,4.36) circle (2.5pt);\end{scriptsize}\end{tikzpicture}%%			\psset{xunit=1cm,yunit=1cm,algebraic=true,dimen=middle,dotstyle=o,dotsize=5pt 0,linewidth=0.8pt,arrowsize=3pt 2,arrowinset=0.25}\begin{pspicture*}(-4.3,-8.46)(22.34,6.3)\psline[linewidth=1.2pt](-0.78,3)(3.54,4.5)\rput[tl](-2.58,2.82){$(a_1,-\log|c_1|)$}\rput[tl](4.1,5.48){$(a_1,-\log|c_1|)$}\begin{scriptsize}\psdots[dotstyle=*,linecolor=blue](-0.78,3)\psdots[dotstyle=*,linecolor=blue](3.54,4.5)\end{scriptsize}\end{pspicture*}
+			\end{center}
 			%End Image
 			Consider the slope of this line segment(assuming $a_1\neq a_2$).
 			\begin{align*}

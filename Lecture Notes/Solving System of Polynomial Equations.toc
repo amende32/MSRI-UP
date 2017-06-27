@@ -6,12 +6,12 @@
 \contentsline {subsubsection}{\numberline {1.4.1}Convex}{4}{subsubsection.1.4.1}
 \contentsline {subsubsection}{\numberline {1.4.2}Convex Hull}{4}{subsubsection.1.4.2}
 \contentsline {subsubsection}{\numberline {1.4.3}Polytope}{4}{subsubsection.1.4.3}
-\contentsline {subsubsection}{\numberline {1.4.4}Correct definitions for Newt and Archnewt}{4}{subsubsection.1.4.4}
+\contentsline {subsubsection}{\numberline {1.4.4}Correct definitions for Newt and Archnewt}{5}{subsubsection.1.4.4}
 \contentsline {subsection}{\numberline {1.5}Univariate Trinomials}{5}{subsection.1.5}
-\contentsline {section}{\numberline {2}Archimedean Tropical Variety}{5}{section.2}
-\contentsline {subsection}{\numberline {2.1}ArchTrop and Amoeba}{5}{subsection.2.1}
+\contentsline {section}{\numberline {2}Archimedean Tropical Variety}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}ArchTrop and Amoeba}{6}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Vertex, Edge, and Lower Edge}{6}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}Vertex}{6}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}Edge}{6}{subsubsection.2.2.2}
 \contentsline {subsubsection}{\numberline {2.2.3}Lower Edge}{6}{subsubsection.2.2.3}
-\contentsline {section}{\numberline {3}ArchTrop and Amoeba in multivariable functions}{6}{section.3}
+\contentsline {section}{\numberline {3}ArchTrop and Amoeba in multivariable functions}{7}{section.3}
