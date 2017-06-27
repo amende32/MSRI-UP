@@ -15,6 +15,7 @@
 \usepackage{tikz}
 \usepackage[lined]{algorithm2e}
 \usepackage{enumerate}
+\usepackage[super,negative]{nth} %nth
 \usepackage[pdftex,
   pdfauthor={Carlos Osco Huaricapcha},
   pdftitle={Solving System of Polynomial Equations},
@@ -99,7 +100,7 @@
 			\begin{ex}
 			Let $N=pq$ where $N$ is a positive integer and $p,q >1$. (Factoring.)
 			Usually, we are given $N$, so we can find $p$ and $q$.\\
-			The security of the R.S.A Cryptosystem is based on this \emph{hardness}.
+			The security of the R.S.A. Crypto-system is based on this \emph{hardness}.
 			\end{ex}
 			\begin{ex}
 			Equilibria in Chemical Analysis systems (reaction networks).
@@ -108,7 +109,29 @@
 			\text{non-linear ordinary differential equation} \to &&\dot{x} = \text{polynomial}(x) (\text{deg}\geq 2)
 			\end{align*}
 			\end{ex}
-			Differential equations govern chemical reaction rates. So, when the reaction settles down the concentrations reactions an \emph{equillibrium}, and the concentrations wind up being \emph{real} solutions to a system of polynomial equations.
+			Differential equations govern chemical reaction rates. So, when the reaction settles down the concentrations reactions an \emph{equilibrium}, and the concentrations wind up being \emph{real} solutions to a system of polynomial equations.
+			It is fair to say that \emph{real solving} in fact makes up to more than 30\% of electrical engineering.
+			\begin{ex}
+			$\mathbb{F}_1$: Finite field with $q$ elements in coding theory and cryptography. You often do arithmetic over $\mathbb{F}_q$, and polynomial system solving occurs very often. ($q$=prime power).
+			\end{ex}
+			\begin{ex}
+			$\mathbb{Q}_p$($p$-acid reactions): This field is related to the solution of Weil-conjectures around the mid-20th century. Multiple fields medals were ensued.\\
+			\end{ex}
+			Fun fact: 40\% of the field medals are awarded to Algebraic Geometry.
+			\\
+			Let's start with easy equations (1 equation, 1 variable, 2 terms, $\mathbb{C}$).
+			\begin{ex}
+			Given $c_1,c_2 \in \mathbb{C}; a_1,a_2 \in \mathbb{Z}$. How do we solve
+			\[ c_1x_1^{a_1}+c_2x_1^{a_2}=0\]?
+			Notice that it is easy to reduce to the case
+			\[ x^d=c \quad \text{where} \quad d\in\mathbb{Z}; c\in \mathbb{C}.\]
+			In fact if you throw-out $x_1=0$, then we may assume $c\neq0$.
+			\end{ex}
+			\subsection{Euler's Formula}
+			It is easy to take d\textsuperscript{th} roots.
+			\[ \exp^{\sqrt{-1}\tau}= \cos\tau+\sqrt{-1}\sin\tau.\]
+			\textbf{Exercise 1.}
+			What is a simple formula for the roots of $x_1^{d}=c$ using Euler's formula?
 			\begin{problem}
 				How many ways are there to cut a string of length 5 into parts of sizes 1 and 2?
 			\end{problem}
