@@ -2,6 +2,7 @@
 [![](http://www.msri.org/sites/56a21bba96803b77c6000001/theme/images/MSRI_Logo_Trans_FX.png?1495753853)](https://www.msri.org/programs/325)
 
 **Solving System of Polynomial Equations** 
+
 Lecture notes from the research program led by Prof. J. Maurice Rojas of Texas A&M University.
 
 
