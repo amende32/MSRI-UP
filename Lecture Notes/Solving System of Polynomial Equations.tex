@@ -149,9 +149,11 @@
 			%%Newt
 			\begin{defn}
 			$Newt(c_o+c_1x_1+\ldots+c_dx_1^{d}):= [0,d].$
-			\\
-			Ray pic goes here.\\
-			
+			%Pic 2
+			\begin{center}
+			\definecolor{qqqqff}{rgb}{0,0,1}\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]\clip(-8.837723278231774,1.6254902739899337) rectangle (16.07777765411344,7.062513608738572);\draw [line width=1.2pt] (-7.982588748474951,6.591950637700944)-- (-4.982588748474951,6.591950637700944);\draw (-8.123861965704762,7.013968757535459) node[anchor=north west] {$c_0$};\draw (-5.251005464071666,7.02090373627876) node[anchor=north west] {$c_dx_1^d$};\draw (-8.123861965704762,6.577065096707443) node[anchor=north west] {$0$};\draw (-5.1639492064464205,6.577065096707443) node[anchor=north west] {$d$};\begin{scriptsize}\draw [fill=qqqqff] (-7.982588748474951,6.591950637700944) circle (2.5pt);\draw [fill=qqqqff] (-4.982588748474951,6.591950637700944) circle (2.5pt);\end{scriptsize}\end{tikzpicture}
+			\end{center}
+		
 			\underline{Observe:} $d=Length(Newt(\ldots))$.
 			\end{defn}
 			\subsection{Backup}
@@ -191,7 +193,7 @@
 			\end{align*}
 			is called the support of $f$.
 			\subsection{Univariate Trinomials}
-			Let $f(x_1)=1-1000x^18+x_1{51}$. What can we say about the $(\mathbb{C})$ roots?
+			Let $f(x_1)=1-1000x_1^{18}+x_1{51}$. What can we say about the $(\mathbb{C})$ roots?
 			
 			\begin{center}``Physicists Approach\ldots'': $|x_1|
 			\begin{cases}
@@ -234,7 +236,7 @@
 			Amoeba(f)= \{\log|J| \mid J \in \mathbb{C}, f(J)=0, J\neq 0\}.
 			\end{align*}
 			\end{defn}
-			\begin{theorem}[Avenda\~{n}o, Kogan, Nisse, Rojas.(2013)] If $f(x_1)=c_1x^{a_1}+\dots+c_Tx^{a_\tau}$ then, for any $u \in Amoeba(f)$ there is a $v\in ArchTrop(f)$ with $|u-v| \leq \log 3$.
+			\begin{theorem}[Avenda\~{n}o, Kogan, Nisse, Rojas.(2013)] If $f(x_1)=c_1x^{a_1}+\dots+c_\tau x^{a_\tau}$ then, for any $u \in Amoeba(f)$ there is a $v\in ArchTrop(f)$ with $|u-v| \leq \log 3$.
 			\end{theorem}
 			 I.e. These sets approximate each other.
 			\begin{ex} Given: $T=2$(binomials). Then, $Amoeba = $ 1 point and $ArchTrop=$ 1 point.
@@ -263,11 +265,13 @@
 			\end{defn}
 			\begin{defn}
 			%\begin{align*}
-			\[ArchTrop(f):= \{v\in \mathbb{R}^{n} \mid \text{is an inner normal to a face of $ArchNewt(f)$ of positive dimension}\}.\]
+			\[ArchTrop(f):= \{v\in \mathbb{R}^{n} \mid (v_1,-1) \text{ is an outer normal to a face of $ArchNewt(f)$ of positive dimension}\}.\]
 			%\end{align*}
 			\end{defn}
+			\underline{Note:} For $n=1$, ($ArchNewt \subset \mathbb{R}^{2}$) a lower edge has slope $v \iff$it has an outer normal of the form $			(v,-1)$.
+			\[ \text{put picture of the convace outter normal}\]
 			\underline{Note:} We will clarify faces and dimension in complete generality next time. For now, let`s consider the $Amoeba$ .
-			\[ Enter pic of Amoeba here\]
+			\[ \text{Enter pic of Amoeba here}\]
 			Amoebae are useful because they give some intuition to begin higher dimensional zero sets.\\
 			\underline{Note:} $f(x_1,x_2)$ where $x_1,x_2 \in \mathbb{C}$ has 2 manifold in $\mathbb{R}^{+}$.\\
 			Let's analyze why is that picture true.
