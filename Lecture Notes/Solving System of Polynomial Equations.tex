@@ -12,8 +12,10 @@
 \usepackage{ae,aecompl}
 %\usepackage{tikz}
 \usepackage[lined]{algorithm2e}
+\usepackage{stackengine} %2 lines 1 text
 \usepackage{enumerate}
 %\usepackage{pstricks-add}
+\usepackage{tikzsymbols} %For emoji's
 \usepackage{pgf,tikz}\usepackage{mathrsfs}\usetikzlibrary{arrows}%\pagestyle{empty}
 \usepackage[super,negative]{nth} %nth
 \usepackage[pdftex,
@@ -300,4 +302,149 @@
 			ArchNewt(fg) &= \ldots:::\text{mess}:::\ldots.
 			\end{align*}
 			It is a mess because $ArchNewt((1+x)^3) \neq 3ArchNewt(1+x).$
+			%%%Day2
+			\subsection{Orientation} \lecture{June 27, 2017}
+			\begin{defn}An \emph{orientation} of a line $L (\subset \mathbb{R}^{2})$ is just attaching a nonzero vector $v(\in\mathbb{R}^2)$ to $L$.
+			\end{defn}
+			\[
+			\text{ line x+y-5}
+			\]
+			\underline{Note:} This allow us to speak of \emph{left} and \emph{right}.
+			\subsection{Puzzle}
+			\begin{defn}
+			Given an oriented line $L$(through $\overrightarrow{o}$) and a point $P_1$.
+			\end{defn}
+			How do we determine if $P$ belongs to left of $L$ or the right $L$?
+			$L=x-$axis, orientation vector $v=(1,0).$
+			\[\text{Ray oriented pic goes here}\]
+			\begin{ex} What side is $P$ on? (Generalize).\\
+			Sign of the determinant would determine if it is right or left.
+			\begin{equation*}
+			\text{if }\det[v,p]\begin{cases}
+			>0 \quad \iff p\text{ is left of } L.\\
+			=0 \quad \iff p\in L.\\
+			<0 \quad \iff p\text{ is right of } L.
+			\end{cases}
+			\end{equation*}
+			\end{ex}
+			%%%%% Incremental Algorithm
+			\section{An Incremental Algorithm}
+			To complete $Conv$ in $\mathbb{R}^2$ is a basic problem in computational Geometry. Here is a simple way to do it.\\
+			Input: $P_1,\ldots,P_N \in \mathbb{R}^2$.
+			Output: A list of indices $\{c_1,\ldots,c_k\}$.
+			such that:\\
+			$(0):$ the vertices $Conv\{P_1,\ldots,P_N\}$ are exactly $P_i,\ldots,P_{i_k}.$\\
+			$(1):$ $P_i,\ldots,P_k$ are ordered $C.C.W.$\\
+			
+			\subsection{Description}
+			\begin{itemize}
+			\item $(-1):$ If $P_1=\ldots=P_N$ then $Conv=P_1$ and you are done \Smiley.\\
+			
+			\item $(0):$ If $\det[P_2-P_1,P_i-P_1]=0$ (Assume $P_2-P_1\neq 0$) for all $i\geq 3$ then let $P_{i_1}$ be any point.
+				\begin{itemize}
+			\item minimizing: $P_{i_1}\cdot(P_2-P_1)$, then $P_{i_2}$ be any point.
+			\item maximizing: $P_{i_2}\cdot(P_2-P_1)$, then $Conv =$ the line segment connecting $P_{i_1}$ and $P_{i_2}$.
+						\end{itemize}
+			\item $(1):$ Find 3 points $\overbrace{P_1,P_2,P_3}^{W\log}$ with $\det(P_2-P_1,P_3-P_1) \neq 0.$
+			i.e. Forming a non-degen triangle.
+			\item $(2):$ Let $S=\{1,2,3\}$. Let $J:= 4$
+				\begin{enumerate}[(a)]
+				\item Take $P_J$ and check if $P_J \in Conv$ defined by $S$.
+				\item If not find the uniques edges $\overline{P_J-P}$ and $\overline{P_JP_v}$ of $Conv((\bigcup_{l\in S} P_{l})\cup P_J)$
+				\end{enumerate}
+			\item $(3):$ Update $S, J, J=J+1.$ Go to $(2)$ unless no points left.
+			\item $(4):$ Output $S$.
+			\end{itemize}
+			\begin{ex} Let`s go back to the beginning, and trace the convex hull.
+			\end{ex}
+						\[ \text{Graph of the progress goes here}\]
+			%%%%Complexity
+			\subsection{Complexity}
+			I.e. how much work? and how do you measure?\\
+			Input size: N(\# of points).\\ Work: \# of Field operations $(+,-,\times,\div)$ and sign checks involving $\mathbb{R}$ numbers.\\
+			Measuring this way, we can see that steps in $(-1)$ and $(0)$ use:
+			\begin{enumerate}[(i)]
+				\item $\leq 2(N-1)$ = checks.
+				\item $\leq 2$ subtractions of vectors.
+				\item $N-1$ determinants and sign checks.
+			\end{enumerate}
+			Hence, it takes about $2+3(N=1)$ operations in the end. $\Rightarrow O(\mathcal{N})$ops.\\
+			The remaining steps then involve:
+			\begin{enumerate}[(i)]
+				\item 3 left and right checks, update list.
+				\item $<4$ left and right checks.
+				$\vdots$
+				\item $N-1$ left and right checks.
+			\end{enumerate}
+			Hence,$\Rightarrow O(\mathcal{N}^2)$ operations in the end. $\Rightarrow O(\mathcal{N}^2)$ops . Therefore, it implies that $O(\mathcal{N})$ complexity required.\\
+			This algorithm is from the 1980`s and, while not the fastest, it is conceptually one of the easiest. Also easy to extend to arbitrary dimensions.\\
+			
+			\underline{Note:} There are $O(\mathcal{N}\log\mathcal{N})$ convex hull algors (in $\mathbb{R}^2$). It turns out that every algorithm (for $Conv \in \mathbb{R}^2$) has worst-case complexity $\Omega(\mathcal{N}\log\mathcal{N})$.\\
+			In dimension $d$, Chazelle and Edelsbrunner proved in the 1980`s that $Conv(N\text{-points})$ admits a $O(N^{\lfloor d/2 \rfloor}+N\log N)$ algorithm, and this is optimal.\\
+			\subsection{Alternative Definition for ArchTrop(f)}
+			\begin{defn}
+			If $f(x)=c_1x^{a_1} +\ldots+c_\tau x^{a_\tau}$.
+			\begin{align*}
+			ArchTrop(f): \left\{ v \in \mathbb{R}^n : \stackanchor{max}{\tiny{$J\in\{1,\ldots,\tau\}$}} \mid c_{J}e^{a_J\cdot v} \mid \text{ is attained at }\geq 2 \text{ distinct points}\right\}.
+			\end{align*}
+			\end{defn}
+			\underline{Note:} Tropical Geometry is nothing more than checking when 2 things agree.
+			\\
+			\textbf{Exercise 1.} Binomial case in $n$ variables. Check that definition via $ArchNewt$ = definition via max.
+			\begin{ex}
+			Given: $1-1000x_1^{18}+x_1^{51}.$ There are 3 terms. Then 3 possibilities.
+			\begin{enumerate}[(i)]
+			\item $|1|=|-1000e^{18v}| \quad > |e^{51v}|$.
+			\item $|-1000e^{18v}| = | e^{51v}| \quad > |1|$
+			\item $|e^{51v}| = 1 \quad |-1000e^{18v}$.
+			\end{enumerate}
+			Then, solving each case we would get that 
+			\begin{enumerate}[(i)]
+			\item $v= \frac{1}{18} \log 1000$ (and $e^{51v}$ is simply smaller).
+			\item $v = \frac{1}{33} \log 1000$ (and$ e^{18v}>1$.
+			\item $v=0$ (but $1>1000$), therefore we exclude it.
+			\end{enumerate}
+			\end{ex}
+			\subsection{Back up}
+			\subsubsection{Affine}
+			\begin{defn}
+			An \emph{affine} subspace $S$ of $\mathbb{R}^n$ is just a translate of a (linear) subspace of $\mathbb{R}^n$.
+			\end{defn}
+			\subsubsection{Face}
+			\begin{defn}
+			A \emph{face} Q of a polyhedron $P \subseteq \mathbb{R}^n$ is just equivalently:
+			\begin{enumerate}[(a)]
+			\item $P \bigcap $ supporting hyperplane.
+			\item $\{x \in P | v\cdot x \text{ is minima}l\}$ for some inner normal $v$. 
+			\item $\{x \in P | w\cdot x \text{ is maximal}l\}$ for some outerr normal $w$.
+			\end{enumerate}
+			\end{defn}
+			\subsubsection{Half Space}
+			\begin{defn}
+			A \emph{half space} $\subset\mathbb{R}^n$ is just
+			$H=\{x | x\cdot x \leq c\}$
+			for some $v$,
+			\end{defn}
+			\subsubsection{Dimension}
+			\begin{defn}
+			The \emph{dimension} of $Q$ is just the dimension of the smallest affine subspace.
+			\end{defn}
+
+			
+
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%			
 \end{document}
