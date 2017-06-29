@@ -11,6 +11,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{ae,aecompl}
 %\usepackage{tikz}
+\usepackage{framed}%frame
 \usepackage[lined]{algorithm2e}
 \usepackage{stackengine} %2 lines 1 text
 \usepackage{enumerate}
@@ -401,7 +402,7 @@
 			Then, solving each case we would get that 
 			\begin{enumerate}[(i)]
 			\item $v= \frac{1}{18} \log 1000$ (and $e^{51v}$ is simply smaller).
-			\item $v = \frac{1}{33} \log 1000$ (and$ e^{18v}>1$.
+			\item $v = \frac{1}{33} \log 1000$ (and$ e^{18v}>1$).
 			\item $v=0$ (but $1>1000$), therefore we exclude it.
 			\end{enumerate}
 			\end{ex}
@@ -429,13 +430,55 @@
 			\begin{defn}
 			The \emph{dimension} of $Q$ is just the dimension of the smallest affine subspace containing $Q$.
 			\[
-			\begin{tabular}{|c|c|c|}\hline Dim &  &  \\\hline -1 & $\empty$ & Empty face \\\hline 0 & $\cdot$ & vertices/vertex \\\hline 1 & $ / \nearrow$  & edges/lines/rays \\\hline 2 & \makebox{\quad } & 2-faces \\\hline $\vdots$ & $\vdots$ & $\vdots$ \\\hline $p-1$ &  & facet \\\hline $p$ & $p$& 0 \\\hline \end{tabular}\]
+			\begin{tabular}{|c|c|c|}\hline Dim &  &  \\\hline -1 & $\empty$ & Empty face \\\hline 0 & $\cdot$ & vertices/vertex \\\hline 1 & $ / \nearrow$  & edges/lines/rays \\\hline 2 & \framebox{\quad } & 2-faces \\\hline $\vdots$ & $\vdots$ & $\vdots$ \\\hline $p-1$ &  & facet \\\hline $p$ & $p$& 0 \\\hline \end{tabular}\]
 			\end{defn}
 			\textbf{Exercise 2.}
 			$ArchTrop(1+x_1+x_2)=$
 			\[ \text{Pic of >/  goes here} \]
-			\underline{Note:} Every point of the $Amoeba(1+x_1+x_2)$ is within distnce $\log2$ of some point of $ArchTrop(1+x_1+x_2)$
-			\[\text{Pic goes here >/ Archtrop wiht border}\]
+			\underline{Note:} Every point of the $Amoeba(1+x_1+x_2)$ is within distance $\log2$ of some point of $ArchTrop(1+x_1+x_2)$
+			\[\text{Pic goes here >/ Archtrop with border}\]
+			%%%%%%%%Day 3
+			\section{Numerical Solving} \lecture{June 28, 2017}
+			\subsection{Bisection Algorithm}
+			\begin{theorem}[Bolzano,1817] Given a continuos function, $f:\mathbb{R}\to\mathbb{R}$, with $f(a)f(b)<0$ and $a<b$, we must have 1 or more roots for $(a,b)$.
+			\end{theorem}
+			Then this theorem give us the possibility to work polynomials.
+						\[ \text{Pic of Input goes here} \]
+						\[\framebox{$L=a, R=b$}\]
+			\[\text{Input: $f_1$ has an acceptable error.}\]
+			Then \emph{Bisection Algorithm} for root finding.
+			\begin{enumerate}[(1)]
+			\item Let $x=\frac{a+b}{2}.$
+			\item If $f(a)f(x)<0$ then $R=x$.
+			\item If $f(b)f(x)<0$ then $L=x$.
+			\item If $R-L<2\epsilon$ then say ``$x$'' is good enough and stop.
+			\item Go to step 1.
+			\end{enumerate}
+			Notice that clearly, the error goes from:
+			$\frac{b-a}{2}, \frac{b-a}{4}, \frac{b-a}{8}, \ldots, \frac{b-a}{2^n}$
+			after $n$ steps. Then, to get the error $\epsilon,$ $\mathcal{O}(\log(\frac{b-a}{\epsilon}))$ steps suffice.\\
+			\underline{Good:}
+			\begin{enumerate}[(i)]
+			\item This algorithm only needs evaluation of the sign of $f(y)$.
+			\item Sikoski (1982) proved that, for algorithms \emph{only} evaluating $f$ adaptively at various points, worst-case complexity is $				\Omega(\log(\frac{b-a}{\epsilon}))$ evaluations.
+			\end{enumerate}
+			\underline{Bad:}
+			\begin{enumerate}[(i)]
+			\item You can go way faster for Analytic functions.
+			\item \emph{Newton`s Method}, under certain conditions, is faster.
+			\end{enumerate}
+			\subsection{Newton`s Method}
+			\begin{defn}
+			Given any analytic function $f: \mathbb{C} \to \mathbb{C}$ We define the newton endomorphism.
+			\[N_f(z):= z-f`(z)^{-1}f(z).\]
+			Similarly, when $f: \mathbb{C}^n \to \mathbb{C}^n,$ we replace $f`(z)^{-1}$ to the Jacobian of $f$.
+			\end{defn}
+			\subsection{Sequence of Newton`s Iterates}
+			\begin{defn}
+			Given $z_n\in\mathbb{C},$ the sequence $(z_0,z_1,\ldots,z_n)$. Defined by $Z_{n+1}:= N_f(z_n)$ is the sequence of newton iterates. Also, if this sequence satisfies
+			\[|z_n-\zeta | \leq (\frac{1}{2})^{2^{n-1}} |z_0-\zeta| \]
+			(for some true roots $\zeta$ of $f$) then we call $z_o$ an approximate root of $f$ (in the sense of smale).
+			\end{defn}
 			
 
 			

@@ -26,3 +26,7 @@
 \BOOKMARK [3][-]{subsubsection.4.4.2}{Face}{subsection.4.4}% 26
 \BOOKMARK [3][-]{subsubsection.4.4.3}{Half Space}{subsection.4.4}% 27
 \BOOKMARK [3][-]{subsubsection.4.4.4}{Dimension}{subsection.4.4}% 28
+\BOOKMARK [1][-]{section.5}{Numerical Solving}{}% 29
+\BOOKMARK [2][-]{subsection.5.1}{Bisection Algorithm}{section.5}% 30
+\BOOKMARK [2][-]{subsection.5.2}{Newton`s Method}{section.5}% 31
+\BOOKMARK [2][-]{subsection.5.3}{Sequence of Newton`s Iterates}{section.5}% 32
