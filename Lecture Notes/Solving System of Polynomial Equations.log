@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 JUN 2017 22:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  28 JUN 2017 23:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1609,11 +1609,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 383--385
  []
 
 [9] [10] [11] [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 501.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 501.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 502.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 502.
  (./Solving System of Polynomial Equations.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 501.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 501.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 502.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 502.
 Package rerunfilecheck Info: File `"Solving System of Polynomial Equations".out
 ' has not changed.
 (rerunfilecheck)             Checksum: C0EDCA751BBBA220DC68F3404BFD1F2D;2158.
@@ -1647,8 +1647,8 @@ cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/loca
 l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Solving System of Polynomial Equations.pdf" (12 pages, 24657
-8 bytes).
+Output written on "Solving System of Polynomial Equations.pdf" (12 pages, 24695
+7 bytes).
 PDF statistics:
  351 PDF objects out of 1000 (max. 8388607)
  316 compressed objects within 4 object streams
